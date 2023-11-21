@@ -7,6 +7,6 @@ Nowadays everyone wants to track your clicks. Twitter/X is no exception. Under n
 
 This extension simply replaces t.co links with original URLs, on-the-fly, locally on your browser by doing some janky methods leaving no trace on Twitter servers.
 
-Download this repo as .zip, go to about:debugging#/runtime/this-firefox and load it using Load Temporary Add-on.
+Download .zip from Releases tab, go to about:debugging#/runtime/this-firefox and load it using Load Temporary Add-on.
 
 This was my first time writing more than two lines in js so it's awful, unoptimized and it's prolly causing harm for entire dev community. Sorry guys.
