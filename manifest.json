@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter, IDGAF",
+  "version": "1.0",
+  "description": "This extension replaces Twitter tracking links with original ones.",
+  "permissions": ["activeTab", "storage"],
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://*.x.com/*", "*://*.t.co/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  }
+}
